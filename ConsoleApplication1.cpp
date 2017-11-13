@@ -7,7 +7,7 @@
 using namespace std;
 
 
-int zmain()
+int main()
 {
 	int a, b;
 	a = 0;
@@ -18,7 +18,7 @@ int zmain()
 	cin >> a;
 	cin >> b;
 
-	if ( a + b > 179 || b < 0 ||  a < 0 )
+	if ( a + b > 179 || b <= 0 ||  a <= 0 )
 	{
 		cout << "error" << endl;
 		goto link;		//ссылка на линк 
